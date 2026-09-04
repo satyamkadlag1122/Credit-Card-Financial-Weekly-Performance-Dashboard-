@@ -1,4 +1,4 @@
-# Credit Card Financial Dashboard 
+# Credit Card Financial Weekly Performance Dashboard
 
 An end-to-end Power BI project that turns raw credit card transaction and customer data into an interactive dashboard, giving stakeholders real-time visibility into revenue, risk, and customer behavior.
 
@@ -31,7 +31,7 @@ Credit_Card_Financial_Dashboard/
 
 ## Data Pipeline
 
-1. Raw data (`credit_card.csv`, `customer.csv`) prepared and loaded into a **MySQL database** using `sql_query_financial_dashboard_data.sql`
+1. Raw data (`credit_card.csv`, `customer.csv`) prepared and loaded into a **MySQL database** using `credit_card financial_dashboard_data.sql`
 2. Power BI connected directly to the SQL database
 3. Data modeled with a relationship on `Client_Num` between the transaction and customer tables
 4. **DAX** used to build calculated columns (age/income segmentation) and measures (revenue, week-over-week comparisons)
