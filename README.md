@@ -41,8 +41,9 @@ Credit_Card_Financial_Dashboard/
 
 ### 1. Transaction Report
 Tracks overall business performance — revenue, transaction volume, and spending patterns.
+
 <p align="center">
-  <img src="./images/credit-card-dashboard.png" width="900">
+  <img src="./images/credit_card_transaction_report.png" width="100%">
 </p>
 
 **Key visuals:**
@@ -53,7 +54,9 @@ Tracks overall business performance — revenue, transaction volume, and spendin
 ### 2. Customer Report
 Profiles the customer base — who they are and how they contribute to revenue.
 
-![Customer Report](images/credit_card_report_customer.png)
+<p align="center">
+  <img src="./images/credit_card_customer_report.png" width="100%">
+</p>
 
 **Key visuals:**
 - Revenue, Total Interest, Income, and CSS (Customer Satisfaction Score) KPIs
