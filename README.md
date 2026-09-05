@@ -42,9 +42,7 @@ Credit_Card_Financial_Dashboard/
 ### 1. Transaction Report
 Tracks overall business performance — revenue, transaction volume, and spending patterns.
 
-<p align="center">
-  <img src="./images/credit_card_transaction_report.png" width="100%">
-</p>
+[![Credit Card Transaction Report](./credit_card_transaction_report.png)](./credit_card_transaction_report.png)
 
 **Key visuals:**
 - Revenue, Total Interest, Transaction Amount, Transaction Count KPIs
