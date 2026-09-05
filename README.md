@@ -13,23 +13,23 @@ To develop a comprehensive credit card dashboard that provides real-time insight
 - **DAX** — calculated columns and time-intelligence measures
 
 ## 📂 Project Structure
-
 ```text
-Credit-Card-Financial-Weekly-Performance-Dashboard
+Credit-Card-Financial-Weekly-Performance-Dashboard-
+│
+├── 📁 data
+│   ├── cc_add.csv
+│   ├── credit_card.csv
+│   ├── cust_add.csv
+│   └── customer.csv
+│
+├── 📁 images
+│   ├── credit_card_customer_report.png
+│   └── credit_card_transaction_report.png
 │
 ├── 📊 Credit Card Financial Weekly Performance Dashboard.pbix
-├── 📄 README.md
 ├── 🗄️ credit_card financial_dashboard_data.sql
-├── 📁 Data
-│   ├── credit_card.csv
-│   ├── cc_add.csv
-│   ├── customer.csv
-│   └── cust_add.csv
-├── 🖼️ images/
-    ├── credit_card_report_transaction.png
-    └── credit_card_report_customer.png
-
-```
+└── 📄 README.md
+'''
 ## Data Pipeline
 
 1. Raw data (`credit_card.csv`, `customer.csv`) prepared and loaded into a **MySQL database** using `credit_card financial_dashboard_data.sql`
