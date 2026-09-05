@@ -12,23 +12,22 @@ To develop a comprehensive credit card dashboard that provides real-time insight
 - **Power BI** — data modeling, DAX measures, and dashboard design
 - **DAX** — calculated columns and time-intelligence measures
 
-## Project Structure
+## 📂 Project Structure
 
-```
-Credit_Card_Financial_Dashboard/
-├── data/
-│   ├── credit_card.csv        # Transaction-level data
-│   ├── customer.csv           # Customer demographic data
-│   ├── cc_add.csv             # Additional credit card data
-│   └── cust_add.csv           # Additional customer data
-├── images/
+```text
+Credit-Card-Financial-Weekly-Performance-Dashboard
+│
+├── 📊 Credit Card Financial Weekly Performance Dashboard.pbix
+├── 📄 README.md
+├── 🗄️ credit_card financial_dashboard_data.sql
+├── 📁 Data
+│   ├── credit_card.csv
+│   ├── cc_add.csv
+│   ├── customer.csv
+│   └── cust_add.csv
+├── 🖼️ images/
 │   ├── credit_card_report_transaction.png
 │   └── credit_card_report_customer.png
-├── Credit_Card_Financial_Dashboard.pbix
-├── sql_query_financial_dashboard_data.sql
-└── README.md
-```
-
 ## Data Pipeline
 
 1. Raw data (`credit_card.csv`, `customer.csv`) prepared and loaded into a **MySQL database** using `credit_card financial_dashboard_data.sql`
@@ -42,7 +41,8 @@ Credit_Card_Financial_Dashboard/
 ### 1. Transaction Report
 Tracks overall business performance — revenue, transaction volume, and spending patterns.
 
-[![Credit Card Transaction Report](./credit_card_transaction_report.png)](./credit_card_transaction_report.png)
+
+[![Transaction Report](./images/credit_card_transaction_report.png)](./images/credit_card_transaction_report.png)
 
 **Key visuals:**
 - Revenue, Total Interest, Transaction Amount, Transaction Count KPIs
@@ -52,7 +52,8 @@ Tracks overall business performance — revenue, transaction volume, and spendin
 ### 2. Customer Report
 Profiles the customer base — who they are and how they contribute to revenue.
 
-[![Credit Card Customer Report](./credit_card_customer_report.png)](./credit_card_customer_report.png)
+[![Customer Report](./images/credit_card_customer_report.png)](./images/credit_card_customer_report.png)
+
 
 **Key visuals:**
 - Revenue, Total Interest, Income, and CSS (Customer Satisfaction Score) KPIs
@@ -118,8 +119,8 @@ WoW_Revenue = DIVIDE(
 
 ## How to Reproduce
 
-1. Set up a MySQL database and run `sql_query_financial_dashboard_data.sql` to create tables and import the CSVs from the `data/` folder
-2. Open `Credit_Card_Financial_Dashboard.pbix` in Power BI Desktop
+1. Set up a MySQL database and run `credit_card financial_dashboard_data.sql` to create tables and import the CSVs from the `data/` folder
+2. Open `Credit Card Financial Weekly Performance Dashboard.pbix` in Power BI Desktop
 3. Update the SQL Server connection details (Home → Transform Data → Data Source Settings) to point to your own database
 4. Refresh the data to load it into the report
 
