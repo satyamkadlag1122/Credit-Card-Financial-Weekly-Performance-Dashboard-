@@ -26,8 +26,10 @@ Credit-Card-Financial-Weekly-Performance-Dashboard
 │   ├── customer.csv
 │   └── cust_add.csv
 ├── 🖼️ images/
-│   ├── credit_card_report_transaction.png
-│   └── credit_card_report_customer.png
+    ├── credit_card_report_transaction.png
+    └── credit_card_report_customer.png
+
+```
 ## Data Pipeline
 
 1. Raw data (`credit_card.csv`, `customer.csv`) prepared and loaded into a **MySQL database** using `credit_card financial_dashboard_data.sql`
