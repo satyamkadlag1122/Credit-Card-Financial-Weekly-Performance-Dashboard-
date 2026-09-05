@@ -29,7 +29,7 @@ Credit-Card-Financial-Weekly-Performance-Dashboard-
 ├── 📊 Credit Card Financial Weekly Performance Dashboard.pbix
 ├── 🗄️ credit_card financial_dashboard_data.sql
 └── 📄 README.md
-'''
+```
 ## Data Pipeline
 
 1. Raw data (`credit_card.csv`, `customer.csv`) prepared and loaded into a **MySQL database** using `credit_card financial_dashboard_data.sql`
