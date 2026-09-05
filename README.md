@@ -54,7 +54,7 @@ Tracks overall business performance — revenue, transaction volume, and spendin
 ### 2. Customer Report
 Profiles the customer base — who they are and how they contribute to revenue.
 
-[![Credit Card Customer Report](./images/credit_card_customer_report.png)]
+[![Credit Card Customer Report](./credit_card_customer_report.png)](./credit_card_customer_report.png)
 
 **Key visuals:**
 - Revenue, Total Interest, Income, and CSS (Customer Satisfaction Score) KPIs
