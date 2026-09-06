@@ -1,4 +1,4 @@
-# Credit Card Financial Weekly Performance Dashboard
+# Credit Card Financial Weekly  Dashboard
 
 An end-to-end Power BI project that turns raw credit card transaction and customer data into an interactive dashboard, giving stakeholders real-time visibility into revenue, risk, and customer behavior.
 
@@ -14,7 +14,7 @@ To develop a comprehensive credit card dashboard that provides real-time insight
 
 ## 📂 Project Structure
 ```text
-Credit-Card-Financial-Weekly-Performance-Dashboard-
+Credit_Card_Financial_Weekly_Dashboard
 │
 ├── 📁 data
 │   ├── cc_add.csv
@@ -26,7 +26,7 @@ Credit-Card-Financial-Weekly-Performance-Dashboard-
 │   ├── credit_card_customer_report.png
 │   └── credit_card_transaction_report.png
 │
-├── 📊 Credit Card Financial Weekly Performance Dashboard.pbix
+├── 📊 Credit_Card_Financial_Weekly_Dashboard.pbix
 ├── 🗄️ credit_card financial_dashboard_data.sql
 └── 📄 README.md
 ```
@@ -122,7 +122,7 @@ WoW_Revenue = DIVIDE(
 ## How to Reproduce
 
 1. Set up a MySQL database and run `credit_card financial_dashboard_data.sql` to create tables and import the CSVs from the `data/` folder
-2. Open `Credit Card Financial Weekly Performance Dashboard.pbix` in Power BI Desktop
+2. Open `Credit_Card_Financial_Weekly_Dashboard` in Power BI Desktop
 3. Update the SQL Server connection details (Home → Transform Data → Data Source Settings) to point to your own database
 4. Refresh the data to load it into the report
 
